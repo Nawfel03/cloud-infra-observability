@@ -46,14 +46,18 @@ An end-to-end cloud infrastructure and telemetry project demonstrating Infrastru
 
 How to Reproduce
 1. Provision Cloud Infrastructure
+
 Bash
+
 cd terraform
 terraform init
 terraform plan
 terraform apply
 
 2. Launch Local Observability Stack
+
 Bash
+
 cd monitoring
 docker compose up -d
 
